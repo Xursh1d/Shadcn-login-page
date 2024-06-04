@@ -5,7 +5,7 @@ import CardHeader from "./components/CardHeader";
 
 export function LoginPage() {
     return (
-        <Card className="w-[344px] font-inter space-y-5">
+        <Card className="w-[344px] font-inter space-y-5 my-5">
             <CardHeader />
             <CardContent />
             <CardFooter />

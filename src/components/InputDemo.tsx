@@ -30,7 +30,7 @@ const InputDemo = React.forwardRef<HTMLInputElement, InputDemoProps>(
                     {startIcon && <img className="absolute -translate-y-1/2 top-1/2 left-3" src={startIcon} alt="start-icon" />}
                     {endIcon && <img onClick={toggleEyeCallBack} className="absolute -translate-y-1/2 cursor-pointer top-1/2 right-3" src={endIcon} alt="end-icon" />}
                 </div>
-                {error && <span className="mt-1 text-xs text-rose-500">{error}</span>}
+                {error && <span className="mt-1 text-xs font-light text-rose-500">{error}</span>}
             </div>
         );
     }
